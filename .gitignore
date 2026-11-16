@@ -3,5 +3,4 @@ __pycache__/
 /.venv/
 /tmp/
 /Camera/photos/
-/Camera/results/
 /Camera/live_results/

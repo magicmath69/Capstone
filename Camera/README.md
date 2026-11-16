@@ -122,8 +122,8 @@ python .\Camera\test_detect_holes.py
 ```
 
 Place the original capture files named in `validation_labels.json` in
-`Camera/photos` before running the checks. Captures and generated overlays are
-stored locally and excluded from version control.
+`Camera/photos` before running the checks. The reviewed overlays and measurements
+are tracked in `Camera/results`. Raw captures and live snapshots stay local.
 
 All these photos have been used for tuning. These checks do not measure accuracy
 on unseen conditions or guarantee robustness to glare.
